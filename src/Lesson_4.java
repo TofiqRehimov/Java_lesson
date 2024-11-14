@@ -52,11 +52,11 @@ public class Lesson_4 {
 //
 //        }
 
-                int[] box = {1, 2, 3, 4, 5, 6};
+        int[] box = {1, 2, 3, 4, 5, 6};
         System.out.println(Arrays.toString(box));
         System.out.println(box.length);
         for (var i = 0; i <= box.length - 1; i++) {
-            System.out.println(box[i])
+            System.out.println(box[i]);
         }
         for (var i = box.length - 1; i >= 0; i--) {
             System.out.println(box[i]);

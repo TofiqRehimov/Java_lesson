@@ -29,22 +29,22 @@ public class Lesson_3 {
 
         /// Bal hesablanmasi
 
-        System.out.println("Bali qeyd edin: ");
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        if (input <= 40) {
-            System.out.println("Sizin baliniz E -dir ");
-        } else if (input <= 50) {
-            System.out.println("Sizin baliniz D -dir ");
-        } else if (input <= 70) {
-            System.out.println("Sizin baliniz C -dir ");
-        } else if (input <= 80) {
-            System.out.println("Sizin baliniz B -dir ");
-        } else if (input <= 100) {
-            System.out.println("Sizin baliniz A -dir ");
-        } else {
-            System.out.println("Sizin baliniz F -dir ");
-        }
+//        System.out.println("Bali qeyd edin: ");
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+//        if (input <= 40) {
+//            System.out.println("Sizin baliniz E -dir ");
+//        } else if (input <= 50) {
+//            System.out.println("Sizin baliniz D -dir ");
+//        } else if (input <= 70) {
+//            System.out.println("Sizin baliniz C -dir ");
+//        } else if (input <= 80) {
+//            System.out.println("Sizin baliniz B -dir ");
+//        } else if (input <= 100) {
+//            System.out.println("Sizin baliniz A -dir ");
+//        } else {
+//            System.out.println("Sizin baliniz F -dir ");
+//        }
 
 
 //        System.out.println("hansi ay oldugunu qeyd edin ");

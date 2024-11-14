@@ -83,7 +83,7 @@ public class Lesson_3 {
 //             case "Noyabr":
 //                 System.out.println("Payiz feslidir");
 //                 break;
-//             case "Dekabr":
+//             case "Deabr":
 //                 System.out.println("Payiz feslidir");
 //                 break;
 //                 default:

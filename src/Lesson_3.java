@@ -47,50 +47,50 @@ public class Lesson_3 {
 //        }
 
 
-//        System.out.println("hansi ay oldugunu qeyd edin ");
-//        Scanner sc = new Scanner(System.in);
-//        var input = sc.nextLine();
-//        switch (input) {
-//            case "Yanvar":
-//                System.out.println("Qis feslidir");
-//                break;
-//            case "Fevral":
-//                System.out.println("Qis feslidir");
-//                break;
-//            case "Mart":
-//                System.out.println("Qis feslidir");
-//                break;
-//            case " Aprel":
-//                System.out.println("Yaz feslidir");
-//                break;
-//            case "May":
-//                System.out.println("Yaz feslidir");
-//                break;
-//            case " Iyun":
-//                System.out.println("Yaz feslidir");
-//                break;
-//            case "Iyul":
-//                System.out.println("Yay feslidir");
-//                break;
-//            case "Avqust":
-//                System.out.println("Yay feslidir");
-//                break;
-//            case "Sentyabr":
-//                System.out.println("Yay feslidir");
-//                break;
-//            case "Oktyabr":
-//                System.out.println("Payiz feslidir");
-//                break;
-//            case "Noyabr":
-//                System.out.println("Payiz feslidir");
-//                break;
-//            case "Deabr":
-//                System.out.println("Payiz feslidir");
-//                break;
-//            default:
-//                System.out.println("Duzgun qeyd etmemisiniz");
-//
-//
-//        }
+        System.out.println("hansi ay oldugunu qeyd edin ");
+        Scanner sc = new Scanner(System.in);
+        var input = sc.nextLine();
+        switch (input) {
+            case "Yanvar":
+                System.out.println("Qis feslidir");
+                break;
+            case "Fevral":
+                System.out.println("Qis feslidir");
+                break;
+            case "Mart":
+                System.out.println("Qis feslidir");
+                break;
+            case " Aprel":
+                System.out.println("Yaz feslidir");
+                break;
+            case "May":
+                System.out.println("Yaz feslidir");
+                break;
+            case " Iyun":
+                System.out.println("Yaz feslidir");
+                break;
+            case "Iyul":
+                System.out.println("Yay feslidir");
+                break;
+            case "Avqust":
+                System.out.println("Yay feslidir");
+                break;
+            case "Sentyabr":
+                System.out.println("Yay feslidir");
+                break;
+            case "Oktyabr":
+                System.out.println("Payiz feslidir");
+                break;
+            case "Noyabr":
+                System.out.println("Payiz feslidir");
+                break;
+            case "Deabr":
+                System.out.println("Payiz feslidir");
+                break;
+            default:
+                System.out.println("Duzgun qeyd etmemisiniz");
+
+
+        }
     }
 }

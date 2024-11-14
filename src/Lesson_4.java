@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class Lesson_4 {
     public static void main(String[] args) {
 //        int a = 3;
@@ -40,15 +41,28 @@ public class Lesson_4 {
 //        System.out.println(a+ "." + b);
 //    }
 //}
-        int[] box = {1, 2, 3, 4, 5, 6};
+//        int[] box = {1, 2, 3, 4, 5, 6};
+//        System.out.println(Arrays.toString(box));
+//        System.out.println(box.length);
+//        for (var i = 0; i <= box.length - 1; i++) {
+//            System.out.println(box[i]);
+//        }
+//        for (var i = box.length - 1; i >= 0; i--) {
+//            System.out.println(box[i]);
+//
+//        }
+
+                int[] box = {1, 2, 3, 4, 5, 6};
         System.out.println(Arrays.toString(box));
         System.out.println(box.length);
-      for (var i =0; i<=box.length-1; i++ ) {
-    System.out.println(box[i]);
-}
-        for (var i = box.length - 1; i >= 0; i--) {
+        for (var i = 0; i <= box.length - 1; i++) {
             System.out.println(box[i]);
         }
+        for (var i = box.length - 1; i >= 0; i--) {
+            System.out.println(box[i]);
+
+        }
+
 
     }
 }

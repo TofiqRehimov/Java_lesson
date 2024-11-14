@@ -1,6 +1,7 @@
+import java.util.Arrays;
 public class Lesson_4 {
     public static void main(String[] args) {
-        int a = 3;
+//        int a = 3;
 //       int b = 5;
 //       a = a +2;
 //       b = b-2;
@@ -40,12 +41,12 @@ public class Lesson_4 {
 //    }
 //}
         int[] box = {1, 2, 3, 4, 5, 6};
-//        System.out.println(Arrays.toString(box));
-//        System.out.println(box.length);
-//for (var i =0; i<=box.length-1; i++ ) {
-//    System.out.println(box[i]);
-//}
-        for (var i = box.length-1; i >= 0; i--) {
+        System.out.println(Arrays.toString(box));
+        System.out.println(box.length);
+      for (var i =0; i<=box.length-1; i++ ) {
+    System.out.println(box[i]);
+}
+        for (var i = box.length - 1; i >= 0; i--) {
             System.out.println(box[i]);
         }
 

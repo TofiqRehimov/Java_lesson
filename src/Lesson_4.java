@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Lesson_4 {
     public static void main(String[] args) {
@@ -36,7 +37,7 @@ public class Lesson_4 {
 //            }
 //        }
 //
-//for (int a=1; a<=10; a++) {
+//    for (int a=1; a<=10; a++) {
 //    for (int b=10; b>=1; b--) {
 //        System.out.println(a+ "." + b);
 //    }
@@ -61,6 +62,44 @@ public class Lesson_4 {
 //        for (var i = box.length - 1; i >= 0; i--) {
 //            System.out.println(box[i]);
 //
+//        }
+
+//        System.out.println("Enter number");
+//        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//        int num2 = sc.nextInt();
+//        int num3 = 1;
+//            for (int i=1;i<=num2;i++ ){
+//                 num3 = num3 * num;
+//            }
+//        System.out.println(num3);
+//        int a= 1;
+//
+//        for(int i=1; i<=10; i++){
+//            a*=i;
+//        }
+//        System.out.println(a);
+
+
+//        for (int i=1; i<=100; i++){
+//            if(i%2==0){
+//                System.out.println("Cut "+i);
+//            }
+//            else if(i !=0){
+//                System.out.println("Tek "+i);
+//            }
+//
+//        }
+
+
+//        Scanner sc = new Scanner(System.in);
+//        var scanner = sc.nextInt();
+//
+//        for (int i = 1; i <= scanner; i++) {
+//           if(scanner % 10 == 0) {
+//
+//               System.out.println(scanner);
+//           }
 //        }
 
 

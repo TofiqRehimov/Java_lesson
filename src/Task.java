@@ -115,21 +115,9 @@ public class Task {
 
         System.out.println("eded: ");
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[5];
         int t = 0;
         int ta = 0;
-//        int[] arr = {1, 2, 3, 44, 5, 6};
-        int userNum = sc.nextInt();
 
-        for (int i = 0; i <= arr.length-1; i++){
-            arr[i] = sc.nextInt();
-            t+=arr[i];
         }
-
-//        for (int i = 0; i < arr.length ; i++) {
-//
-//        }
-        System.out.print(t + "  ");
-//        System.out.print(ta + " Tekrardir");
     }
 }

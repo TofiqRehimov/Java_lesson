@@ -10,5 +10,6 @@ public class Bolme {
             System.out.println("Cannot divide by zero");
     }
         return a / b;
+
     }
 }

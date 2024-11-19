@@ -31,10 +31,10 @@ public class Mini_Kalkulyator {
 
 
             }
-//            else if(op.equals("*")){
-//                var V = v.Vurma(number,op,number2);
-//                System.out.print("Netice "+V);
-//            }
+            else if(op.equals("*")){
+                var V = v.Vurma(number,op,number2);
+                System.out.print("Netice "+V);
+            }
 
 
 

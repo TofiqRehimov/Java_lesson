@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Task {
     public static void main(String[] args) {
@@ -113,11 +113,8 @@ public class Task {
 
         /// Arrays Scanner ile daxil olan ededlerin tekrar sayini tapmaq
 
-        System.out.println("eded: ");
-        Scanner sc = new Scanner(System.in);
-        int t = 0;
-        int ta = 0;
 
-        }
+
+
     }
 }

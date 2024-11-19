@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int number = new Animals().data();
-        System.out.println(number);
-        var plus = new Animals();
+//        int number = new Animals().data();
+//        System.out.println(number);
+//        var plus = new Animals();
 
     }
 

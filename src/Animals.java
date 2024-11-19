@@ -1,10 +1,9 @@
 public class Animals {
-    public int data() {
-        return 2 + 2;
+    private String name;
+    public void setName (String name){
+        this.name = name;
     }
-
-    public String paramName(String name) {
-        return name;
-
+    public String getName (){
+        return this.name;
     }
 }

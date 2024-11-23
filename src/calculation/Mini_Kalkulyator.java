@@ -1,3 +1,5 @@
+package calculation;
+
 import java.util.Scanner;
 
 public class Mini_Kalkulyator {
@@ -12,9 +14,9 @@ public class Mini_Kalkulyator {
         int number2 = sc.nextInt();
 
         var p = new Plus();
-        var m = new Cixmaq();
+        var m = new Minus();
         var b = new Bolme();
-        var v = new Vurma();
+        var v = new Multiplication();
 
 
             if (op.equals("+")){
@@ -22,7 +24,7 @@ public class Mini_Kalkulyator {
                 System.out.print("Netice "+PP);
             }
             else if (op.equals("-")){
-                var C = m.Cixmaq(number,op,number2);
+                var C = m.Minus(number,op,number2);
                 System.out.print("Netice "+C);
             }
             else if(op.equals("/")){
@@ -32,17 +34,9 @@ public class Mini_Kalkulyator {
 
             }
             else if(op.equals("*")){
-                var V = v.Vurma(number,op,number2);
+                var V = v.Multipcation(number,op,number2);
                 System.out.print("Netice "+V);
             }
-
-
-
-//        System.out.println(p.Plus(1,"+",2));
-
-
-
-
 
     }
 

@@ -1,3 +1,5 @@
+package calculation;
+
 public class Bolme {
     int a;
     int b=0;

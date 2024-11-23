@@ -1,4 +1,5 @@
-import java.math.BigDecimal;
+package lessons;
+
 import java.util.Scanner;
 
 public class Lesson_1 {

@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-//import java.util.Scanner;
+package tasks;//import java.util.Scanner;
 
 public class Task {
     public static void main(String[] args) {

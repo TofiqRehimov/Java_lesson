@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+package lessons;
 
 public class Lesson_4 {
     public static void main(String[] args) {

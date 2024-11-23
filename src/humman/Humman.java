@@ -1,3 +1,5 @@
+package humman;
+
 public class Humman {
     private String name;
     private int age;
@@ -21,7 +23,7 @@ public class Humman {
     }
 
     public String setName(String name) {
-            return this.name = name;
+        return this.name = name;
     }
 
     public int getAge() {
@@ -29,11 +31,11 @@ public class Humman {
     }
 
     public int setAge(int age) {
-    return this.age = age;
+        return this.age = age;
     }
 
     public String getGender() {
-    return gender;
+        return gender;
     }
 
     public String setGender(String gender) {
@@ -41,3 +43,4 @@ public class Humman {
     }
 
 }
+

@@ -1,10 +1,11 @@
+package cars;
 public class Cars {
     String name;
     String carsClass;
     Integer Speed;
 
     public String setName(String name){
-       return this.name = name;
+        return this.name = name;
 
     }
     public String getName(){
@@ -18,7 +19,7 @@ public class Cars {
         return this.carsClass;
     }
     public int setSpeed(Integer Speed){
-       return this.Speed = Speed;
+        return this.Speed = Speed;
 
     }
     public Integer getSpeed(){
@@ -29,17 +30,17 @@ public class Cars {
     }
 
     public Cars(Integer speed, String name, String carsClass) {
-      this.Speed = speed;
-      this.name = name;
-      this.carsClass = carsClass;
+        this.Speed = speed;
+        this.name = name;
+        this.carsClass = carsClass;
     }
 
 
 
-//    public Cars(String carsClass, Integer speed) {
-//        this.name = name;
-//        this.carsClass = carsClass;
-//        this.Speed = speed;
-//    }
+    public Cars(String carsClass, Integer speed) {
+        this.name = name;
+        this.carsClass = carsClass;
+        this.Speed = speed;
+    }
 
 }

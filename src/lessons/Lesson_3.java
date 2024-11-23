@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package lessons;
 
 public class Lesson_3 {
     public static void main(String[] args) {

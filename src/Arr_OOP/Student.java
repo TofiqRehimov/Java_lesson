@@ -2,31 +2,45 @@ package Arr_OOP;
 
 public class Student extends Academy{
     static int Student_id;
-    String Student_course;
+    String StudentCourse;
+    private  String studentName;
 
-    public Student(String name, String address, int student_id, String sdudent_course) {
+
+    public Student() {
+
+    }
+    public Student(String name, String address, int student_id, String studentCourse) {
         super(name, address);
         Student_id = student_id;
-        Student_course = sdudent_course;
+        StudentCourse = studentCourse;
+        studentName = name;
+
+    }
+    public String getstudentName() {
+        return studentName;
+    }
+
+    public void setstudentName(String student_name) {
+        studentName = student_name;
     }
 
     public int getStudent_id() {
         return Student_id;
     }
 
-    public String getStudent_course() {
-        return Student_course;
+    public String getStudentCourse() {
+        return StudentCourse;
     }
 
     public void setStudent_id(int student_id) {
         Student_id = student_id;
     }
 
-    public void setStudent_course(String student_course) {
-        Student_course = student_course;
+    public void setStudent_course(String studentCourse) {
+        StudentCourse = studentCourse;
     }
     void Study(){
-       System.out.println("Id si "+Student_id +" olan telebe "+ name +" "+ Student_course + " cursunda tehsil alir" );
+       System.out.println(" ID -si " +Student_id +" olan telebe "+studentName+ " " + StudentCourse + " cursunda tehsil alir" );
 
     }
 }

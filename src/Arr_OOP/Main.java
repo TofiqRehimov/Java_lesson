@@ -1,7 +1,5 @@
 package Arr_OOP;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 //            int [] arr = new int[10];
@@ -50,10 +48,16 @@ public class Main {
 
 //        Academy academy = new Academy();
 
-        Student s1 = new Student("Tofiq","Baku",1,"ATL");
+        Student s1 = new Student("Tofiq", "Baku", 1, "ATL");
 //
         s1.Study();
-        Teacher t1 = new Teacher("Musviq", "BB",2, "Java");
+        Teacher t1 = new Teacher("Musviq", "BB", 2, "Java");
         t1.teach();
+        Student s2 = new Student("Ramazan", "Baku", 3, "ATL");
+
+//        Academy AddStudents =new Academy();
+       System.out.println(new Student());
     }
+
+
 }

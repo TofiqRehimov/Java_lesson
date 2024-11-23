@@ -1,3 +1,5 @@
+package family;
+
 public class Family {
     private String familyName;
     private int age;

@@ -4,6 +4,9 @@ public class Teacher extends Academy {
         int Teacher_id;
         String Subject;
 
+     public Teacher(){
+
+     }
     public Teacher(String name, String address, int teacher_id, String subject) {
         super(name, address);
         Teacher_id = teacher_id;

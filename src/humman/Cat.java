@@ -1,3 +1,5 @@
+package humman;
+
 public class Cat {
     public String name;
     public Cat(String name){

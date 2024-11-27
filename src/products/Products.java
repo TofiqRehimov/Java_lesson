@@ -16,8 +16,13 @@ public class Products {
 
     }
 
-    public void setId(int id) {
+    public Products() {
+
+    }
+
+    public int setId(int id) {
         this.id = id;
+        return id;
     }
 
     public void setProductPrice(int productPrice) {
@@ -64,7 +69,8 @@ public class Products {
         if (o == null || getClass() != o.getClass()) return false;
         Products products = (Products) o;
 //        if(id == products.id) return true;
-        return productPrice == products.productPrice || id == products.id || Objects.equals(productName, products.productName) || Objects.equals(prodcutCategory, products.prodcutCategory);
+        return productPrice == products.productPrice || id == products.id || Objects.equals(productName, products.productName)
+                || Objects.equals(prodcutCategory, products.prodcutCategory);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package Maneger;
+package maneger;
 
 public class Director extends Menecer{
     public double bonus;

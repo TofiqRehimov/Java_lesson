@@ -1,4 +1,4 @@
-package Maneger;
+package maneger;
 
 public class Menecer extends Employee {
 
@@ -19,7 +19,8 @@ public class Menecer extends Employee {
     public void work(){
 //        super.work();
 
-        System.out.println(name +  " "  + year + " ildi "  +department +  "departamentinde  Menicer isleyir "+ calculateSalary() + " AZN emek haqqi ve " + bonus + " AZN  bonus alir");
+        System.out.println(name +  " "  + year + " ildi "  +department +  "departamentinde  Menicer isleyir "+
+                calculateSalary() + " AZN emek haqqi ve " + bonus + " AZN  bonus alir");
     }
 
 }

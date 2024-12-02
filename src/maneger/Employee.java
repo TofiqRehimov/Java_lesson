@@ -1,4 +1,4 @@
-package Maneger;
+package maneger;
 
 public class Employee {
     public int no;

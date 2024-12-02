@@ -1,4 +1,4 @@
-package Maneger;
+package maneger;
 
 public class Menecer extends Employee {
 
@@ -12,14 +12,16 @@ public class Menecer extends Employee {
         this.departamentManaged = department;
         this.bonus = bonus;
     }
+    @Override
     public double calculateSalary(){
         double salary = super.calculateSalary();
-        return MANAGMENT_PAYMENT + salary;
+        return MANAGMENT_PAYMENT + salary ;
     }
     public void work(){
 //        super.work();
 
-        System.out.println(name +  " "  + year + " ildi "  +department +  "departamentinde  Menicer isleyir "+ calculateSalary() + " AZN emek haqqi ve " + bonus + " AZN  bonus alir");
+        System.out.println(name +  " "  + year + " ildi "  +department +  "departamentinde  Menicer isleyir "+
+                calculateSalary() + " AZN emek haqqi ve " + bonus + " AZN  bonus alir");
     }
 
 }

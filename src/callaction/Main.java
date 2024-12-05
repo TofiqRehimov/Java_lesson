@@ -37,8 +37,8 @@ public class Main {
         library.showAvailableBooks();
         library.rentBook("Clean Code");
         library.showAllBooks();
-//        library.showAvailableBooks();
-//        library.returnBook("Clean Code");
-//        library.showAllBooks();
+        library.showAvailableBooks();
+        library.returnBook("Clean Code");
+        library.showAllBooks();
     }
 }

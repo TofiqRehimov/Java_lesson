@@ -23,7 +23,6 @@ public class Main {
                     double i = (x.getDebt() * percent / 100);
                     double v = x.getDebt() + i;
                     x.setDebt(v);
-//                    System.out.println("Debt is "+x);
                     return i;
                 }).forEach(i -> System.out.println("faiz: " + i));
         System.out.println(list);

@@ -12,8 +12,13 @@ public class Main {
 
 //        System.out.println(mylist);
 
-      mylist.stream().map(l -> Arrays.stream(l.split("")).toList()).forEach(System.out::println);
-      ;
+      mylist.stream().map(l -> {
+          return Arrays.stream(l.split("")).toList();
+      }).forEach(System.out::println);
+
+
+      var mylist2 = mylist;
+      mylist2.stream().flatMap(f -> Arrays.stream(f.split(""))).forEach(System.out::println);
 
     }
 }
